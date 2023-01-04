@@ -15,8 +15,8 @@ A new flutter plugin project.
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
-  s.dependency 'Mux-Stats-AVPlayer'
+  s.dependency 'Mux-Stats-AVPlayer', '~>3.0'
   s.platform = :ios, '9.0'
-  s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES'}
+  s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'ENABLE_BITCODE' => 'NO'}
   s.swift_version = '5.0'
 end
